@@ -94,7 +94,7 @@ header nav a:hover {
 }
 
 aside {
-	background:#e67e22;
+	background:#c0392b;
 	padding:20px;
 	/*FLEX*/
 	flex:1 1 30%;
@@ -143,7 +143,7 @@ footer .links a:hover {
 }
 
 footer .social {
-	background:#e67e22;
+	background:#c0392b;
 }
 
 footer .social a {
