@@ -1,5 +1,4 @@
 * {
-    /* padding: 0; */
     box-sizing: border-box;
 }
 
@@ -96,14 +95,14 @@ main>aside {
     margin: 0 3rem 0;
 }
 
-.header-menubar a{
+.header-menubar a {
     text-decoration: none;
     color: darkblue;
 }
 
-.header-menubar a:hover{    
+.header-menubar a:hover {
     color: purple;
-    font-size:xx-large;
+    font-size: xx-large;
     font-family: 'Courier New', Courier, monospace;
     background: transparent;
 }
