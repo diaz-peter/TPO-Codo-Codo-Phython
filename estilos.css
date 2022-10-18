@@ -12,20 +12,33 @@ body,
 header,
 main,
 footer {
-    border: 3px red solid;
     min-height: 50px;
     margin: 0.5rem;
     min-width: 100px;
 }
 
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 main {
     min-height: 200px;
     overflow: auto;
+    background-color: bisque;
+}
+
+header {
+    background: #fff;
+    box-shadow: 0 0 0.5rem rgb(83 78 76 / 50%);
+}
+
+footer {
+    background: #fff;
 }
 
 main>div {
-    border: 2px blue solid;
-    min-height: 180px;
+
     margin: 00.5rem;
     height: auto;
     float: left;
@@ -33,25 +46,64 @@ main>div {
 }
 
 main>aside {
-    border: 2px blue solid;
+
     min-height: 180px;
-    margin: 0.5rem;    
+    margin: 0.5rem;
     float: left;
-    width: 25%;
+    width: 32%;
 }
 
 .secciones {
-    border: 2px green solid;
+
     min-height: 50px;
     margin: 0.5rem;
 }
 
-.secciones article{
-    border: 2px purple solid;
+.secciones article {
+
     margin: 0.5rem;
     min-height: 20px;
 }
 
-#gif-principal{
+#gif-principal {
     width: 100%;
+}
+
+.header-logo {
+    width: auto;
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.header-menubar {
+    left: auto;
+    position: relative;
+    top: auto;
+    width: auto;
+    display: inline-block;
+    margin: 0.5rem 0 5rem 2rem;
+}
+
+.header-menubar ul {
+    list-style: none;
+}
+
+.header-menubar li {
+    float: left;
+    font-weight: 600;
+    font-size: x-large;
+    text-align: center;
+    margin: 0 3rem 0;
+}
+
+.header-menubar a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+.header-menubar a:hover{    
+    color: purple;
+    font-size:xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    background: transparent;
 }
