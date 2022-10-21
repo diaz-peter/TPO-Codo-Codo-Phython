@@ -36,7 +36,7 @@ header {
 
 header .logo {
     color: #fff;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 header .logo img {
@@ -180,9 +180,12 @@ footer .social a {
     aside .widget {
         flex-grow: 1;
     }
+
 }
 
 @media screen and (max-width: 600px) {
+
+
     aside {
         flex-direction: column;
     }
