@@ -91,6 +91,7 @@ header nav a:hover {
 
 .titulo {
     text-align: center;
+    color: #c0392b;
 }
 
 .main article img {
@@ -127,6 +128,11 @@ aside .widget {
     background: #d35400;
     height: 150px;
     margin: 10px;
+}
+
+aside .widget h4 {
+    color: #e9e9e9;
+    text-align: center;
 }
 
 .video-responsive {
