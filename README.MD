@@ -3,8 +3,7 @@
 
 ##### ¿Cómo se desarrollará el proyecto?
 
-El proyecto web se desarrollará en grupos de 3 integrantes cada uno (obligatorio). Cada grupo deberá designar un representante de forma tal de establecer contacto directo con el Docente. Será ese integrante el que recibirá la devolución del proyecto realizada por el Docente en el transcurso de la cursada y cualquier notificación relevante realizada a lo largo
-del desarrollo del proyecto.
+El proyecto web se desarrollará en grupos de 3 integrantes cada uno (obligatorio). Cada grupo deberá designar un representante de forma tal de establecer contacto directo con el Docente. Será ese integrante el que recibirá la devolución del proyecto realizada por el Docente en el transcurso de la cursada y cualquier notificación relevante realizada a lo largo del desarrollo del proyecto.
 
 ##### ¿Qué hay que entregar?
 
