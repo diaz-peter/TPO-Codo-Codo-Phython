@@ -121,7 +121,7 @@ aside {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content:space-around;
 }
 
 aside .widget {
@@ -220,7 +220,7 @@ footer .social a {
     }
 
     aside .widget {
-        flex-grow: 1;
+        flex-grow: 2;
     }
 
 }
