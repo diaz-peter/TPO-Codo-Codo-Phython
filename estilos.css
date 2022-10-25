@@ -148,7 +148,7 @@ aside .widget h4 {
 .video-responsive iframe,
 .video-responsive object,
 .video-responsive embed {
-    position:absolute;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -196,6 +196,7 @@ footer .social a {
     display: inline-block;
 }
 
+
 @media screen and (max-width: 800px) {
     .contenedor {
         flex-direction: column;
@@ -220,7 +221,7 @@ footer .social a {
     }
 
     aside .widget {
-        flex-grow: 2;       
+        flex-grow: 2;
     }
 
 }
