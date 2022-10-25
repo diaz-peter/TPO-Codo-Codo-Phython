@@ -17,6 +17,28 @@
     flex-flow: row wrap;
 }
 
+.contenedor_jug {
+    width: 600;
+    height: 400;
+    margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.img_jugador {
+    flex: none;
+    width: 23%;    
+    overflow:hidden;
+    margin-bottom: 2%;  
+    
+    display: flex;
+    justify-content: center;
+    align-items:center;   
+
+}
+
 body {
     background: #e9e9e9;
 }
