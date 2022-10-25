@@ -18,24 +18,25 @@
 }
 
 .contenedor_jug {
-    width: 600;
+    width: 95%;
     height: 400;
     margin: auto;
 
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
 .img_jugador {
     flex: none;
-    width: 23%;    
-    overflow:hidden;
-    margin-bottom: 2%;  
-    
+    width: calc((100% - 30px) / 4);
+    overflow: hidden;
+    margin-bottom: 10px;
+
     display: flex;
     justify-content: center;
-    align-items:center;   
+    align-items: center;
+
 
 }
 
@@ -222,6 +223,10 @@ footer .social a {
 @media screen and (max-width: 800px) {
     .contenedor {
         flex-direction: column;
+    }
+
+    .img_jugador {
+        width: calc((100% - 10px) / 2);
     }
 
     header {
