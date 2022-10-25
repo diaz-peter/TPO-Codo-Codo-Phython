@@ -28,30 +28,32 @@
 
         <section class="main">
             <article>
-                <div class="contenedorforms">
-                    <div class="">
-                        <form action="/action_page.php" method="post" target="blank" id="form">
-                            <div class="form">
-                                <h1>Login Socios</h1>
-                                <div class="grupo">
-                                    <input type="text" name="name" id="name"><span class="barra"></span>
-                                    <label for="name">Nombre</label>
-                                </div>
-                                <div class="grupo">
-                                    <input type="email" name="email" id="email"><span class="barra"></span>
-                                    <label for="email">Email</label>
-                                </div>
-                                <div class="grupo">
-                                    <input type="password" name="password" id="password"><span class="barra"></span>
-                                    <label for="password">Password</label>
-                                </div>
 
-                                <button type="submit">Enviar</button>
-                                <p class="warnings" id="warnings"></p>
-                            </div>
-                        </form>
-                        <script src="app.js"></script>
+                <form action="" class="form">
+                    <h2 class="form_title"> Iniciar Seccion</h2>
+                    <p class="form_paragraph">¿Aun no tienes cuenta?<a href="#" class="form_link">Entra aqui</a></p>
+                </form>
+
+                <div class="form_container">
+                    <div class="form_group">
+                        <input type="text" name="" id="name" class="form_input" placeholder=" ">
+                        <label for="name" class="form_label"> Nombre</label>
+                        <span class="for_line"></span>
                     </div>
+                    <div class="form_group">
+                        <input type="text" name="" id="user" class="form_input" placeholder=" ">
+                        <label for="user" class="form_label"> Usuario</label>
+                        <span class="for_line"></span>
+                    </div>                                       
+
+                    <div class="form_group">
+                        <input type="password" name="" id="pasword" class="form_input" placeholder=" ">
+                        <label for="password" class="form_label"> Contraseña</label>
+                        <span class="for_line"></span>
+                    </div>
+
+                    <input type="submit" class="form_submit" value="Entrar">
+
 
                 </div>
 
