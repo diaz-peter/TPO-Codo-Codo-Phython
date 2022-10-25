@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    border-radius: 5px;
+    border-radius: 2px;
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -128,11 +128,11 @@ header nav a:hover {
     text-align: justify;
 }
 
-/* .main article:nth-last-child(1) {
+.main article:nth-last-child(1) {
     margin-bottom: 0;
     padding-bottom: 0;
     border-bottom: none;
-} */
+}
 
 aside {
     background: #c0392b;
@@ -219,6 +219,73 @@ footer .social a {
     display: inline-block;
 }
 
+.form {
+    background-color: rgb(251, 245, 245);
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(0 0 / 30%);
+    text-align: center;
+}
+
+.form_title {
+    font-size: 2rem;
+    margin-bottom: .5em;
+}
+
+.form_paragraph {
+    font-weight: 300;
+}
+
+.form_link {
+    font-weight: 400;
+    color: #000;
+}
+
+.form_container {
+    margin-top: 3em;
+    display: grid;
+    gap: 2.5em;
+}
+
+.form_group {
+    position: relative;
+    color: #163856;
+}
+
+.form_input{
+    width: 100%;
+    background: none;
+    color: #c0392b;
+    font-size: 1rem;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #163856 ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form_label{
+    color: #163856;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    transform: translateY(10px);
+    transition: transform .5s, color .3s ;
+}
+
+.form_input:focus + .form_label,
+.form_input:not(:placeholder-shown) + .form_label{
+    transform: translateY(-12px) scale(.7);
+    transform-origin: left top;
+    
+
+}
+
+
 
 @media screen and (max-width: 800px) {
     .contenedor {
@@ -272,11 +339,12 @@ footer .social a {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 #myImg:hover {
-    opacity: 0.8; 
-    -webkit-transform:scale(1.3);transform:scale(1.3);   
-    
+    opacity: 0.8;
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+
 }
