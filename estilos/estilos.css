@@ -228,7 +228,7 @@ footer .social a {
     .img_jugador {
         width: calc((100% - 20px) / 3);
     }
-    
+
     header {
         flex-direction: column;
         padding: 0;
@@ -258,7 +258,7 @@ footer .social a {
     .img_jugador {
         width: calc((100% - 10px) / 2);
     }
-    
+
     aside {
         flex-direction: column;
     }
@@ -266,4 +266,17 @@ footer .social a {
     footer {
         justify-content: space-around;
     }
+}
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    overflow:hidden;
+}
+
+#myImg:hover {
+    opacity: 0.8; 
+    -webkit-transform:scale(1.3);transform:scale(1.3);   
+    
 }
