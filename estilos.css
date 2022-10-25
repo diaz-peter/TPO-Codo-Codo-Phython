@@ -226,9 +226,9 @@ footer .social a {
     }
 
     .img_jugador {
-        width: calc((100% - 10px) / 2);
+        width: calc((100% - 20px) / 3);
     }
-
+    
     header {
         flex-direction: column;
         padding: 0;
@@ -255,6 +255,10 @@ footer .social a {
 
 @media screen and (max-width: 600px) {
 
+    .img_jugador {
+        width: calc((100% - 10px) / 2);
+    }
+    
     aside {
         flex-direction: column;
     }
