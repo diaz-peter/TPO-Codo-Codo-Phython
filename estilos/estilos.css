@@ -220,14 +220,15 @@ footer .social a {
 }
 
 .form {
-    background-color: rgb(251, 245, 245);
+    background-color:#e74c3c;
+    color:#fff;
     margin: auto;
     width: 90%;
     max-width: 500px;
     padding: 1.5em 2em;
     border-radius: 10px;
     box-shadow: 0 5px 10px -5px rgb(0 0 / 30%);
-    text-align: justify;
+    text-align: center;
 }
 
 .form_title {
