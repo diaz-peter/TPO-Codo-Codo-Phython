@@ -220,8 +220,8 @@ footer .social a {
 }
 
 .form {
-    background-color:#e74c3c;
-    color:#fff;
+    background-color: aliceblue;
+    color: #c0392b;
     margin: auto;
     width: 90%;
     max-width: 500px;
@@ -282,10 +282,10 @@ footer .social a {
 .form_input:not(:placeholder-shown)+.form_label {
     transform: translateY(-12px) scale(.7);
     transform-origin: left top;
-    color:#e74c3c;
+    color: #e74c3c;
 }
 
-.form_submit{
+.form_submit {
     background: #c0392b;
     color: #fff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -296,14 +296,22 @@ footer .social a {
     border-radius: .5em;
 }
 
-.fom_line{
-    position:absolute;
+.fom_line {
+    position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     height: 1px;
     background-color: #163856;
-    transform: scale(0);   
+    transform: scale(0);
+}
+
+.warnings {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #c0392b;
+    padding-top: 20px;
 }
 
 

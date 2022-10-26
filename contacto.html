@@ -29,39 +29,37 @@
         <section class="main">
             <article>
 
-                <form action="" class="form">
-                    <h2 class="form_title"> ¿Como podemos ayudarte?</h2>                    
-                </form>
-
-                <div class="form_container">
-                    <div class="form_group">
-                        <input type="text" name="" id="name" class="form_input" placeholder=" ">
-                        <label for="name" class="form_label"> Nombre</label>
-                        <span class="for_line"></span>
-                    </div>
-
-                    <div class="form_group">
-                        <input type="email" name="" id="email" class="form_input" placeholder=" ">
-                        <label for="user" class="form_label"> Correo Electronico</label>
-                        <span class="for_line"></span>
-                    </div>
-
-                    <div class="form_group">
-                        <input type="text" name="" id="mesagge" class="form_input" placeholder=" ">
-                        <label for="user" class="form_label"> Mensaje</label>
-                        <span class="for_line"></span>
-                    </div>
-
-                    <div class="form_group">
-                        <input type="text" name="" id="phone" class="form_input" placeholder=" ">
-                        <label for="password" class="form_label"> Telefono</label>
-                        <span class="for_line"></span>
-                    </div>
-
-                    <input type="submit" class="form_submit" value="Enviar" id="btn-enviar">                   
-
-                </div>
-
+                <form action="" class="form" method="post" id="form" novalidate>
+                    <h2 class="form_title"> ¿Como podemos ayudarte?</h2>       
+                    <div class="form_container">
+                        <div class="form_group">
+                            <input type="text" name="" id="name" class="form_input" placeholder=" ">
+                            <label for="name" class="form_label"> Nombre</label>
+                            <span class="for_line"></span>
+                        </div>
+    
+                        <div class="form_group">
+                            <input type="email" name="" id="email" class="form_input" placeholder=" ">
+                            <label for="user" class="form_label"> Correo Electronico</label>
+                            <span class="for_line"></span>
+                        </div>
+    
+                        <div class="form_group">
+                            <input type="text" name="" id="mesagge" class="form_input" placeholder=" ">
+                            <label for="user" class="form_label"> Mensaje</label>
+                            <span class="for_line"></span>
+                        </div>
+    
+                        <div class="form_group">
+                            <input type="text" name="" id="phone" class="form_input" placeholder=" ">
+                            <label for="password" class="form_label"> Telefono</label>
+                            <span class="for_line"></span>
+                        </div>
+    
+                        <input type="submit" class="form_submit" value="Enviar" > 
+                        <p class="warnings" id="warnings"></p>            
+                </form>                               
+                
             </article>
         </section>
 
